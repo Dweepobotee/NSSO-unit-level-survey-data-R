@@ -1,0 +1,8 @@
+## Level 1
+level1<-read.fwf(file="R71250L01.txt",
+                widths=c(3,5,2,3,1,1,3,2,3,2,1,1,4,1,1,2,2,5,2,1,1,1,4,4,4,6,6,3,1,1,1,1,1,47,3,3,10),
+                col.names = c("centre-round","FSU sl no", "Round", "Schedule","Sample", "Sector","NSS-Region","District","Stratum","Sub-stratum", "Sub-round","Sub-sample","FOD-sub-region","sub-block no","sss no", "hhno", "level", "filler","informant sl no","response code",
+                              "survey code","subs code","employeecode1", "employeecode2","employeecode3","date_of_survey", "date_of_despatch","time_to_canvass(mins)","no of investigators","Remarks in block12(1)", "Remarks in block12(2)","Remarks elsewhere (1)", "Remarks elsewhere(2)",
+                              "Blank","NSS", "NSC", "MLT"), n=65932)
+
+
