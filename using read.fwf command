@@ -6,3 +6,4 @@ level1<-read.fwf(file="R71250L01.txt",
                               "Blank","NSS", "NSC", "MLT"), n=65932)
 
 
+
