@@ -5,5 +5,7 @@ level1<-read.fwf(file="R71250L01.txt",
                               "survey code","subs code","employeecode1", "employeecode2","employeecode3","date_of_survey", "date_of_despatch","time_to_canvass(mins)","no of investigators","Remarks in block12(1)", "Remarks in block12(2)","Remarks elsewhere (1)", "Remarks elsewhere(2)",
                               "Blank","NSS", "NSC", "MLT"), n=65932)
 
+## Level 2
+
 
 
