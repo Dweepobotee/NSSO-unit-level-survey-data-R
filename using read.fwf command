@@ -21,7 +21,6 @@ level3<-read_fwf(file="<path name to level3 txt file>", fwf_cols(fsuslno=c(4,8),
                                   medicalatn=col_integer(), hospitalised=col_integer(), numhospitalised=col_integer(), pregnant=col_integer(), timeofdeath=col_integer(), nss=col_character(), nsc=col_character(),mlt=col_character()))
 
 
-
 ## Level 4
 ## using the 'readr' package
 level4<-read_fwf(file="<path name to level4 txt file>",fwf_cols(fsuslno=c(4,8), sector=c(15, 15), subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,40), personid=c(41,42),rltntohead=c(43,43),sex=c(44,44), age=c(45,47),
