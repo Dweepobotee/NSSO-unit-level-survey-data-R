@@ -1,9 +1,3 @@
-## Level 2
-## By including 'common-id'
-level2<-read.fwf(file="R71250L02.txt", 
-                 widths=c(35,2,5,2,5,3,1,1,1,1,1,1,2,8,8,50,3,3,10), 
-                 col.names=c("common-id", "level","filler", "hhsize", "NIC", "NCO", "hhtype","religion", "socialgrp", "latrinetype", "drainagetype","source_of_drink_water", "primary_source_of_cookingenergy", "amt_med_insurance", "hh_cons_exp", "blank","NSS", "NSC","MLT"), 
-                 n=65932)
 
 ## Including relevant parts of 'common-id' 
 level2<-read.fwf(file="R71250L02.txt",
