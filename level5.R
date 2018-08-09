@@ -1,6 +1,6 @@
 ## level 5
 
-level5<-read_fwf(file="<insert path name to level5 txt file>",fwf_cols(fsuslno=c(4,8),sector=c(15,15),subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
+level5<-read_fwf(file="<insert file name for level5 txt file>",fwf_cols(fsuslno=c(4,8),sector=c(15,15),subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
                                                hospslno=c(39,40), personid=c(41,42),age=c(43,45),ailment=c(46,47),treatment=c(48,48),levelofcare=c(49,49),ward=c(50,50),
                                                whenadmitted=c(51,51), whendischarged=c(52,52),durationofstay=c(53,57),surgery=c(58,58),medicine=c(59,59),tests=c(60,60),
                                                othertests=c(61,61), treatedbeforehosp=c(62,62),bh_nature_trtmnt=c(63,63), bh_level_care=c(64,64), bh_duration_treatment=c(65,69),
