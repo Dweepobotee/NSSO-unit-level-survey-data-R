@@ -1,5 +1,5 @@
 ## Level 7
-
+## Including relevant parts of the 'common id'
 level7<-read_fwf(file="<Insert file name to level7 txt file>", fwf_cols(fsuslno=c(4,8), sector=c(15,15), subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
                                                 ailmentid=c(39,40), personid=c(41,42),age=c(43,45),daysill=c(46,47),daysrestricted=c(48,49),daysbedrest=c(50,51),
                                                 natureofailment=c(52,53),chronic=c(54,54),ailmentstatus=c(55,55),ailmentduration=c(56,60), natureoftreatment=c(61,61),
