@@ -1,6 +1,6 @@
 ## Level 6
 
-level6<-read_fwf(file=, fwf_cols(fsuslno=c(4,8), sector=c(15,15), subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
+level6<-read_fwf(file="<Insert path name to level 6 txt file>", fwf_cols(fsuslno=c(4,8), sector=c(15,15), subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
                                                 hospslno=c(39,40), personid=c(41,42),age=c(43,45),freemeddevice=c(46,46),package_component=c(47,53),doctorfee=c(54,60),
                                                 medicine=c(61,67),diagnostictests=c(68,73),bedcharges=c(74,80),otherexpenses=c(81,87),totalmedexpenses=c(88,94),
                                                 transport=c(95,100),nonmedicalexpenses=c(101,107),totalexpense=c(108,115),amtreimbursed=c(116,122),
