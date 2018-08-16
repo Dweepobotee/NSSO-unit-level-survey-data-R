@@ -1,6 +1,6 @@
 ## Level 8
 
-level8<-read_fwf(file="", fwf_cols(fsuslno=c(4,8), sector=c(15,15), subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
+level8<-read_fwf(file="<Insert file name for level 8 txt file>", fwf_cols(fsuslno=c(4,8), sector=c(15,15), subblockno=c(32,32),sssno=c(33,33),hhno=c(34,35),level=c(36,37),filler=c(38,38),
                                                 personid=c(41,42),age=c(43,45),freemedicaladvice=c(46,46),surgery=c(47,47),medicinereceived=c(48,48),othermedicinereceived=c(49,49),
                                                 tests=c(50,50),othertests=c(51,51),doctorfee=c(52,58),medicineAYUSHfee=c(59,64),medicineotherfee=c(65,71),testsfee=c(72,77),
                                                 medicalexpensesfee=c(78,84),totalmedexpense=c(85,92),transport=c(93,98),nonmedicalexpense=c(99,105),totalexpenditure=c(106,113),
